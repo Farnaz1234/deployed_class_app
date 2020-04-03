@@ -3,7 +3,7 @@ suppressPackageStartupMessages(library(tidyverse))
 library(gapminder)
 
 # Storing the labels/values as a tibble means we can use this both 
-# to create the dropdown and convert colnames -> labels when plotting
+# to create the dropdown and convert  colnames -> labels when plotting
 yaxisKey <- tibble(label = c("GDP Per Capita", "Life Expectancy", "Population"),
 									 value = c("gdpPercap", "lifeExp", "pop"))
 
